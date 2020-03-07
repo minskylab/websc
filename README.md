@@ -15,7 +15,7 @@
 
 **Web Crawler**: Internet bot that systematically browses the World Wide Web. Below Image contains the basic components and interactions of a web crawler.
 
-<img src="crawler_structure.png" alt="Crawler Components" style="zoom:50%;" />
+<img src="crawler_structure.png" alt="Crawler Components" width="320" height="auto" />
 
 **Data Scraping**: Is a technique in which a computer program extracts data from human redable output coming from another computer.
 
