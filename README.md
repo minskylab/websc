@@ -1,7 +1,7 @@
 # Web Crawlers and Web Scraping
 ### Brief History
 
-**1989**: Internet is created
+**1989**: Internet was created
 
 **1993**:  [WWWWanderer](https://www.wikiwand.com/en/World_Wide_Web_Wanderer) was created to measure the size of the Web.
 
