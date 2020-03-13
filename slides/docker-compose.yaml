@@ -12,6 +12,6 @@ services:
     links:
       - slides
     environment:
-      DOMAINS: "hcovid19.minsky.cc -> http://slides:80"
+      DOMAINS: "covid19.minsky.cc -> http://slides:80"
       STAGE: "production"
       # FORCE_RENEW: 'true'
