@@ -1,44 +1,19 @@
-Spectacle Boilerplate
-=====================
-
-## Contents
-
-- [Reference](#reference)
-- [Getting Started](#getting-started)
-- [Tutorial](#tutorial)
-- [Build & Deployment](#build-deployment)
+# Spectacle TypeScript Boilerplate
 
 ## Reference
 
-The Spectacle core API is available in the [Spectacle Docs](https://github.com/FormidableLabs/spectacle/blob/master/README.md).
+The Spectacle core API is available at [https://github.com/FormidableLabs/spectacle/blob/master/README.markdown](https://github.com/FormidableLabs/spectacle/blob/master/README.markdown).
 
-## Getting Started
+## Development
 
-1. Install dependencies
+After downloading the boilerplate, your first order of business is to open terminal and run `yarn`. (or `npm install` if you're about that life)
 
-    ```sh
-    $ yarn install
-    ```
+Next, run `rm -R .git` to remove the existing version control.
 
-2. Start the webpack server. The server will run at the default `webpack-dev-server` address, [`localhost:8080`](http://localhost:8080).
+Then, to start up the local server, run `npm start`
 
-    ```sh
-    $ yarn start
-
-    # Or with a specific port!
-    $ yarn start --port=3000
-    ```
-
-## Tutorial
-
-If want you a step-by-step guide for getting started with Spectacle, a basic tutorial is available [here](https://github.com/FormidableLabs/spectacle/blob/master/docs/tutorial.md).
+Open a browser and hit [http://localhost:3000](http://localhost:3000), and we are ready to roll
 
 ## Build & Deployment
 
-Building the dist version of the project is as easy as running
-
-```sh
-$ yarn build
-```
-
-From there you can deploy the built slides  in `dist` to services like Netlify, Surge, etc!
+Building the dist version of the project is as easy as running `npm run build`
