@@ -1,4 +1,4 @@
-FROM node:12 as build
+FROM node:12 as builder
 
 WORKDIR /usr/src/app
 
@@ -10,6 +10,9 @@ COPY . .
 RUN yarn build
 
 FROM nginx
-COPY --from=build /usr/src/app /usr/share/nginx/html
+
+COPY --from=builder /usr/src/app/build /usr/share/nginx/html
+
 EXPOSE 80
+
 CMD ["nginx", "-g", "daemon off;"]
