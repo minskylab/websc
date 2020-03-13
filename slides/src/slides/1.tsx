@@ -7,7 +7,7 @@ export default (
             Yet Another Data Science Presentation
         </Heading>
         <Text margin="10px" textColor="secondary" textFont="secondary">
-            and not
+            or not
         </Text>
     </Slide>
 )
