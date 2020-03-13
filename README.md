@@ -1,7 +1,7 @@
 # Web Crawlers and Web Scraping
 ### Brief History
 
-**1989**: Internet is created
+**1989**: Internet was created
 
 **1993**:  [WWWWanderer](https://www.wikiwand.com/en/World_Wide_Web_Wanderer) was created to measure the size of the Web.
 
@@ -15,7 +15,7 @@
 
 **Web Crawler**: Internet bot that systematically browses the World Wide Web. Below Image contains the basic components and interactions of a web crawler.
 
-<img src="crawler_structure.png" alt="Crawler Components" style="zoom:50%;" />
+<img src="crawler_structure.png" alt="Crawler Components" width="320" height="auto" />
 
 **Data Scraping**: Is a technique in which a computer program extracts data from human redable output coming from another computer.
 
